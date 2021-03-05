@@ -5,7 +5,7 @@ def palindrome(x):
     for i in x:
         listor.append(i)
     j = 1
-    while (j < len(listor) + 1):
+    while (j <= len(listor)):
         listlast.append(listor[len(listor) - j])
         j+=1
     if listor == listlast:
